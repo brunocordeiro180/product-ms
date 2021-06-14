@@ -1,3 +1,5 @@
 build:
   docker:
     web: docker/Dockerfile
+    ports:
+      - "9999:9999"

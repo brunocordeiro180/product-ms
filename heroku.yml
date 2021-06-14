@@ -1,4 +1,5 @@
 build:
   docker:
-    release: mvn clean & mvn install
+    release:
+      command: mvn clean & mvn install
     web: docker/Dockerfile
